@@ -1,20 +1,13 @@
-image:
-  name: node:12
+name: CI
 
-cache:
-  paths:
-    - node_modules/
+on: push
 
-before_script:
-  - yarn install
-  - node --version
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-pages:
-  stage: deploy
-  script:
-    - npm run build   # Do a production build to build/ folder
-    - rm -rf public   # React public/ shouldn't conflict with GitLab public/
-    - mv build public # Move to the directory GitLab pages expects
-    artifacts:
-      paths:
-        - public
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a one-line script
+        run: echo "Hello, world!"
