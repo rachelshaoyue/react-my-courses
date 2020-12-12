@@ -1,5 +1,5 @@
 host: localhost
-database: swen344
-user: swen344
-password: doggood65$
+database: courses
+user: postgres
+password: Doggood65$
 port: 5432
