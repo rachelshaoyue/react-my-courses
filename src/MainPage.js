@@ -50,7 +50,7 @@ class MainPage extends Component {
                     <Col>
                         <Study/>
                         <Row className="gpa">
-                            <div>Cumulative GPA: 3.98/4.0</div>
+                            <div>Cumulative GPA: 3.89/4.0</div>
                         </Row>
                         <Row className="classes">
                             {classes}
@@ -58,7 +58,7 @@ class MainPage extends Component {
                     </Col>
                 </Row>
                 <footer>
-                    Copyright &#169; 2020<br/> Rachel Taylor
+                    Copyright &#169; 2021<br/> Rachel Taylor
                 </footer>
             </div>
         )

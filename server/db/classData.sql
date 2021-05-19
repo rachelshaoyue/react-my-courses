@@ -26,7 +26,7 @@ CREATE TABLE class (
     name VARCHAR(30) NOT NULL,
     description VARCHAR(100) NOT NULL,
     units INT NOT NULL,
-    grade VARCHAR(2),
+    grade VARCHAR(3),
     term_id INT NOT NULL REFERENCES semester(id),
     year_id INT NOT NULL REFERENCES  year(id),
     study_id INT NOT NULL REFERENCES study(id)
@@ -34,8 +34,8 @@ CREATE TABLE class (
 
 INSERT INTO study(degree, required, completed, needed)
     VALUES
-        ('Major: Bachelor of Science in Software Engineering', '127.00', '64.00', '63.00'),
-        ('Minor: Web Development', '18.00', '3.00', '15.00');
+        ('Major: Bachelor of Science in Software Engineering', '127.00', '95.00', '32.00'),
+        ('Minor: Web Development', '18.00', '9.00', '9.00');
 
 INSERT INTO semester (name)
     VALUES
@@ -46,7 +46,8 @@ INSERT INTO semester (name)
 INSERT INTO year (number)
     VALUES
         ('2019-2020'),
-        ('2020-2021');
+        ('2020-2021'),
+        ('2021-2022');
 
 INSERT INTO class (name, description, units, grade, term_id, year_id, study_id)
     VALUES
@@ -66,12 +67,18 @@ INSERT INTO class (name, description, units, grade, term_id, year_id, study_id)
         ('PHYS 211', 'University Physics I', 4, 'A', 1, 2, 1),
         ('SWEN 344', 'Web Engineering', 3, 'A', 1, 2, 1),
         ('SWEN 261', 'Introduction to Software Engineering', 3, 'A', 1, 2, 1),
-        ('CRIM 110', 'Introduction to Criminal Justice', 3, null, 1, 2, 1),
+        ('CRIM 110', 'Introduction to Criminal Justice', 3, 'A', 1, 2, 1),
         ('COMM 253', 'Communication', 3, 'A', 1, 2, 1),
         ('SWEN 99', 'Undergraduate Co-op Seminar', 0, 'S', 1, 2, 1),
-        ('COMM 211', 'Principles of Advertising', 3, null, 2, 2, 1),
-        ('PHYS 212', 'University Physics II', 4, null, 2, 2, 1),
-        ('STAT 205', 'Applied Statistics', 3, null, 2, 2, 1),
-        ('SWEN 256', 'SW Process and Project Manage', 3, null, 2, 2, 1),
-        ('SWEN 262', 'Engineering of SW Subsystems', 3, null, 2, 2, 1),
-        ('WFIT 55', 'Kickboxing', 0, null, 2, 2, 1);
+        ('COMM 211', 'Principles of Advertising', 3, 'A', 2, 2, 1),
+        ('PHYS 212', 'University Physics II', 4, 'B', 2, 2, 1),
+        ('STAT 205', 'Applied Statistics', 3, 'A', 2, 2, 1),
+        ('SWEN 256', 'SW Process and Project Manage', 3, 'A-' , 2, 2, 1),
+        ('SWEN 262', 'Engineering of SW Subsystems', 3, 'A-', 2, 2, 1),
+        ('WFIT 55', 'Kickboxing', 0, 'S', 2, 2, 1),
+        ('COMM 321', 'Copywriting and Visualization', 3, 'TBA', 1, 3, 1),
+        ('CSCI 261', 'Analysis of Algorithms', 3, 'TBA', 1, 3, 1),
+        ('ISTE 240', 'Web & Mobile II', 3, 'TBA', 1, 3, 2),
+        ('SWEN 352', 'Software Testing', 3, 'TBA', 1, 3, 1),
+        ('SWEN 444', 'Human Centered Reqs and Design', 3, 'TBA', 1, 3, 1),
+        ('SWEN 488', 'Software Engineering Summer Coop at First Republic Bank', 0, 'TBA', 3, 2, 1);

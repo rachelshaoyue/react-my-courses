@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, CardColumns, CardHeader, CardBody, CardTitle, CardSubtitle, CardText} from 'reactstrap';
+import {Card, CardHeader, CardBody, CardTitle, CardText} from 'reactstrap';
 
 class Class extends Component {
     constructor(props) {
