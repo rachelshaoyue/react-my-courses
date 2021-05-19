@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/react-my-courses/static/css/main.f289acfc.chunk.css",
-    "main.js": "/react-my-courses/static/js/main.95fe352e.chunk.js",
-    "main.js.map": "/react-my-courses/static/js/main.95fe352e.chunk.js.map",
-    "runtime-main.js": "/react-my-courses/static/js/runtime-main.5537a036.js",
-    "runtime-main.js.map": "/react-my-courses/static/js/runtime-main.5537a036.js.map",
-    "static/css/2.20aa2d7b.chunk.css": "/react-my-courses/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.9e12ba6f.chunk.js": "/react-my-courses/static/js/2.9e12ba6f.chunk.js",
-    "static/js/2.9e12ba6f.chunk.js.map": "/react-my-courses/static/js/2.9e12ba6f.chunk.js.map",
-    "static/js/3.b84e7ee8.chunk.js": "/react-my-courses/static/js/3.b84e7ee8.chunk.js",
-    "static/js/3.b84e7ee8.chunk.js.map": "/react-my-courses/static/js/3.b84e7ee8.chunk.js.map",
-    "index.html": "/react-my-courses/index.html",
-    "static/css/2.20aa2d7b.chunk.css.map": "/react-my-courses/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.f289acfc.chunk.css.map": "/react-my-courses/static/css/main.f289acfc.chunk.css.map",
-    "static/js/2.9e12ba6f.chunk.js.LICENSE.txt": "/react-my-courses/static/js/2.9e12ba6f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/react-my-courses/static/media/logo.6ce24c58.svg"
+    "main.css": "/rlt180002/react-my-courses/static/css/main.87d8526a.chunk.css",
+    "main.js": "/rlt180002/react-my-courses/static/js/main.c7589e3f.chunk.js",
+    "main.js.map": "/rlt180002/react-my-courses/static/js/main.c7589e3f.chunk.js.map",
+    "runtime-main.js": "/rlt180002/react-my-courses/static/js/runtime-main.25e0fd17.js",
+    "runtime-main.js.map": "/rlt180002/react-my-courses/static/js/runtime-main.25e0fd17.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/rlt180002/react-my-courses/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.b414e1a4.chunk.js": "/rlt180002/react-my-courses/static/js/2.b414e1a4.chunk.js",
+    "static/js/2.b414e1a4.chunk.js.map": "/rlt180002/react-my-courses/static/js/2.b414e1a4.chunk.js.map",
+    "static/js/3.42871f28.chunk.js": "/rlt180002/react-my-courses/static/js/3.42871f28.chunk.js",
+    "static/js/3.42871f28.chunk.js.map": "/rlt180002/react-my-courses/static/js/3.42871f28.chunk.js.map",
+    "index.html": "/rlt180002/react-my-courses/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/rlt180002/react-my-courses/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.87d8526a.chunk.css.map": "/rlt180002/react-my-courses/static/css/main.87d8526a.chunk.css.map",
+    "static/js/2.b414e1a4.chunk.js.LICENSE.txt": "/rlt180002/react-my-courses/static/js/2.b414e1a4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5537a036.js",
+    "static/js/runtime-main.25e0fd17.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.9e12ba6f.chunk.js",
-    "static/css/main.f289acfc.chunk.css",
-    "static/js/main.95fe352e.chunk.js"
+    "static/js/2.b414e1a4.chunk.js",
+    "static/css/main.87d8526a.chunk.css",
+    "static/js/main.c7589e3f.chunk.js"
   ]
 }
